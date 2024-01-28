@@ -1,5 +1,4 @@
-
-#21 
+from PIL import Image
 import heapq
 import os
 
@@ -101,7 +100,7 @@ def dynamic_bwt_huffman_compression(image_path, chunk_size=1024, bwt_chunk_size=
 
 def main():
     # Specify the image file path
-    image_path = "image/sample3.jpg"
+    image_path = "/workspaces/Research-2/image/sample3.jpg"
     
     # Set the chunk size for processing the image
     chunk_size = 1024
