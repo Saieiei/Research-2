@@ -3,6 +3,7 @@ import numpy as np
 from skimage import color
 from sklearn.decomposition import PCA
 import os
+# Compression Factor: 0.12753588731913473
 
 def compress_image(image_path, output_path, components=0):
     # Read the image
