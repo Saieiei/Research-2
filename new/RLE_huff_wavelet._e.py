@@ -2,6 +2,8 @@ import pywt
 import heapq
 import numpy as np
 from skimage import io as imageio  # Import the 'io' submodule from skimage as imageio
+#
+
 
 def run_length_encode(data):
     encoded_data = []
