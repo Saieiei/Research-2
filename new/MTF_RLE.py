@@ -1,6 +1,7 @@
 from PIL import Image
 import itertools
 import os
+#
 
 def move_to_front(encoding, symbol):
     if symbol in encoding:
