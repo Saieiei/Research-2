@@ -1,4 +1,5 @@
-from PIL import Image
+
+#21 
 import heapq
 import os
 
