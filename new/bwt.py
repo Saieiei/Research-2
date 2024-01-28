@@ -1,4 +1,5 @@
 import os
+#1.0
 
 def bwt_transform(text):
     rotations = [text[i:] + text[:i] for i in range(len(text))]
