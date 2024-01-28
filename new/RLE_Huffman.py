@@ -1,5 +1,7 @@
 from PIL import Image
 import heapq
+#
+
 
 def run_length_encode(image_data):
     encoded_data = []
