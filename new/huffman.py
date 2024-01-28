@@ -1,5 +1,6 @@
 import heapq
 import os
+#
 
 def read_image_from_file(file_path):
     with open(file_path, 'rb') as file:
