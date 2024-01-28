@@ -1,5 +1,6 @@
 import zlib
 import os
+# 1.0005605087925147
 
 def compress_image(image_path, output_path):
     with open(image_path, 'rb') as f:
