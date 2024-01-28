@@ -1,4 +1,6 @@
 import os
+#
+
 
 def run_length_encode(data):
     encoded_data = []
