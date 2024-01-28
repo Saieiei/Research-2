@@ -2,6 +2,7 @@ import pywt
 import numpy as np
 import imageio
 import os
+#
 
 def wavelet_compress(image_path, output_path):
     # Load the image
