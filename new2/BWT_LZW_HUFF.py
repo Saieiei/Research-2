@@ -141,7 +141,7 @@ def dynamic_bwt_lzw_huffman_compression(image_path, chunk_size=1024, bwt_chunk_s
 
 def main():
     # Specify the image file path
-    image_path = "C:\\saiei\\VIT stuff\\research\\Data Compression DAA\\new\\codes\\image\\test1.jpg"
+    image_path = "/workspaces/Research-2/image/sample3.jpg"
     
     # Set the chunk size for processing the image
     chunk_size = 1024
